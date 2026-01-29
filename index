@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Hjemmeside</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 650px;
+            margin: 50px auto;
+            line-height: 1.6;
+            padding: 20px;
+            color: #222;
+        }
+        h1 { font-weight: 800; letter-spacing: -1px; }
+        section { margin-bottom: 40px; }
+        hr { border: 0; border-top: 1px solid #eee; margin: 40px 0; }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h1>Overskrift</h1>
+        <p>Dette er din nye, rene tekstside i PyCharm.</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Innhold</h2>
+        <p>Her kan du skrive akkurat det du trenger. Ingen bilder, ingen tunge filer, bare ren tekst som laster lynraskt.</p>
+    </section>
+
+</body>
+</html>
