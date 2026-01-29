@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,6 +83,9 @@
         .menu-list li strong { color: var(--accent); }
 
         .footer { text-align: center; margin-top: 50px; font-size: 12px; color: #999; }
+        
+        /* New styling for the pros/cons table to handle more text */
+        .summary-table td { font-size: 14px; vertical-align: top; }
     </style>
 </head>
 <body>
@@ -95,15 +98,25 @@
         <p>Transitioning to <strong>KNordic.no</strong> shifts the focus from "niche pop-culture" to "professional Nordic skincare expert." This builds the necessary trust for high-end brands like <em>Seleve</em> and <em>Celladix</em>.</p>
     </div>
 
-    <h2>1. Visual Aesthetic (Minimalism)</h2>
-    <div class="image-placeholder">
-        [ PLACEHOLDER: Clean, Nordic-style branding image here ]
-    </div>
-    <p><em>Recommendation: Remove visual "noise" (excessive badges, standard Shopify text) and let the premium products be the hero.</em></p>
+    <h2>1. Trust and Credibility (The .no Factor)</h2>
+    <p><strong>Norwegian Standard:</strong> I Norge er et .no-domene det ultimate "tillitsmerket". Det forteller kunden umiddelbart at bedriften er lokal, følger norske forbrukerlover, og – viktigst av alt – at det ikke påløper skjulte tollavgifter eller MVA.</p>
+    <p><strong>Problemet med .shop:</strong> Mange norske kunder er nølende til å bruke .shop-domener, da de ofte assosieres med internasjonale dropshipping-sider eller mindre etablerte merkevarer.</p>
 
-    <h2>2. Navigation: Need-Based vs Brand-Based</h2>
-    <p>Norwegian customers shop by <strong>concerns</strong> and <strong>skin types</strong>. We should reorganize the menu to prioritize the customer's needs over unknown brand names.</p>
-    
+    <h2>2. Perfect Match for "Clinical" Brands</h2>
+    <p><strong>Premium Positioning:</strong> Merkevarer som <em>Celladix</em> og <em>Seleve</em> er avansert, vitenskapsbasert hudpleie. Dette er ikke "søte" eller billige produkter; det er høytytende behandlinger.</p>
+    <p><strong>Navnematch:</strong></p>
+    <ul>
+        <li><strong>K-Town</strong> høres ut som et sted for K-Pop merch, trendy tilbehør og gatekultur.</li>
+        <li><strong>KNordic</strong> høres ut som en profesjonell hudpleieklinikk eller en high-end distributør. Det gir merker som Celladix den medisinske og profesjonelle tyngden de fortjener.</li>
+    </ul>
+
+    <h2>3. Solving the "Climate Concern"</h2>
+    <div class="highlight-box">
+        <p><strong>The Nordic Filter:</strong> Norske kunder lurer alltid på: <em>"Fungerer dette koreanske produktet i det tøffe, tørre nordiske klimaet?"</em></p>
+        <p><strong>Løsningen:</strong> Navnet KNordic besvarer dette spørsmålet umiddelbart. Det posisjonerer butikken som en ekspert-kurator som har valgt ut det beste av koreansk teknologi spesifikt for nordeuropeiske hudbehov. Det fungerer som en bro mellom koreansk innovasjon og nordisk pålitelighet.</p>
+    </div>
+
+    <h2>4. Navigation: Need-Based vs Brand-Based</h2>
     <div class="comparison-grid">
         <div class="card bad">
             <h3>Current (Brand-Focused)</h3>
@@ -120,14 +133,12 @@
                 <li><strong>Skin Type:</strong> Dry, Oily, Sensitive</li>
                 <li><strong>Skin Concern:</strong> Acne, Aging, Glow</li>
                 <li><strong>Category:</strong> Cleansers, SPF, Serums</li>
-                <li><strong>Brands</strong> (Move to bottom)</li>
+                <li><strong>Brands</strong> (Flyttes til bunnen)</li>
             </ul>
         </div>
     </div>
 
-    <h2>3. Product Optimization: Clarity is Key</h2>
-    <p>Simplified titles perform better in search and build more trust than text-heavy titles.</p>
-
+    <h2>5. Product Optimization: Clarity is Key</h2>
     <div class="card bad">
         <strong>Current Title:</strong><br>
         <span style="color: #e74c3c;">JUNG SAEM MOOL Essential Skin Nuder Cushion ( Holiday Pre-Order – 25 % rabatt )</span>
@@ -136,33 +147,38 @@
     <div class="card good">
         <strong>Proposed Title:</strong><br>
         <span style="color: #2ecc71;">Jung Saem Mool – Skin Nuder Cushion</span><br>
-        <small><em>(Promotion badges are added to the image, not the title)</em></small>
+        <small><em>(Kampanjemerker legges på bildet, ikke i tittelen)</em></small>
     </div>
 
-    <h2>4. Technical & Trust Checklist</h2>
-    <table>
+    <h2>Summary of Pros & Cons</h2>
+    <table class="summary-table">
         <thead>
             <tr>
-                <th>Factor</th>
-                <th>Requirement</th>
+                <th>Feature</th>
+                <th>ktown.shop</th>
+                <th>knordic.no</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><strong>Trust</strong></td>
-                <td>Vipps & Klarna logos visible on front page.</td>
+                <td><strong>Customer Trust</strong></td>
+                <td>Low (Looks international/uncertain)</td>
+                <td>High (Verified local business)</td>
             </tr>
             <tr>
-                <td><strong>Speed</strong></td>
-                <td>Load time under 3 seconds (Crucial for mobile).</td>
+                <td><strong>Brand Feel</strong></td>
+                <td>Casual, Pop-culture, Hype</td>
+                <td>Professional, High-end, Clinical</td>
             </tr>
             <tr>
-                <td><strong>Logistics</strong></td>
-                <td>Banner: "SENDES FRA KRISTIANSAND – 1-3 DAGERS LEVERING".</td>
+                <td><strong>SEO (Search)</strong></td>
+                <td>High competition (Global term)</td>
+                <td>Niche focus (Easier to rank in Norway)</td>
             </tr>
             <tr>
-                <td><strong>Language</strong></td>
-                <td>100% flawless Norwegian (No mixed English).</td>
+                <td><strong>Target Audience</strong></td>
+                <td>K-Pop fans / Young hobbyists</td>
+                <td>Serious skincare users / High-spending adults</td>
             </tr>
         </tbody>
     </table>
